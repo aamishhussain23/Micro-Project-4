@@ -98,3 +98,12 @@ input{
     color: #FFFFFF;
     letter-spacing: 10px;
 }
+
+@media screen and (max-width: 640px) {
+    .calculator{
+        width: 80vw;
+    }
+    button{
+        margin: 2px;
+    }
+}
